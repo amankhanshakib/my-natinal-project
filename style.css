@@ -3,3 +3,150 @@ body{
     margin: 0;
     padding: 0;
 }
+#hilsa, #mango, #sapla{
+    width: 90%;
+    display: flex;
+    margin-bottom: 150px;
+    border-bottom: 10px dotted tomato;
+}
+.hilsa{
+    width: 100%;
+    margin-bottom: 130px;
+    padding: 5%;
+    text-align: center;
+}
+.hilsa img{
+    border-radius: 80px;
+}
+.fish-information{
+    width: 50%;
+    text-align: justify;
+    margin-top: 150px;
+    padding-left: 5%;
+}
+.fish-information h1{
+    color: darkmagenta;
+}
+span{
+    color: chocolate;
+}
+.fish-information a{
+    text-decoration: none;
+    padding: 7px;
+    background-image: linear-gradient(rgb(14, 230, 14), yellow, rgb(255, 102, 0));
+    border-radius: 5px;
+    color: rgb(255, 0, 0);
+    font-weight: 900px;
+}
+.fish-information h3{
+    color: rgb(139, 95, 0);
+}
+.mango{
+    width: 100%;
+    margin-bottom: 130px;
+    padding: 2%;
+}
+.mango img{
+    border-radius: 80px;
+}
+.fruit-information{
+    width: 50%;
+    text-align: right;
+    margin-top: 250px;
+    padding-left: 2%;
+    padding-right: 5%;
+}
+.fruit-information h1{
+    color: darkmagenta;
+}
+span{
+    color: chocolate;
+}
+.fruit-information a{
+    text-decoration: none;
+    padding: 7px;
+    background-image: linear-gradient(rgb(14, 230, 14), yellow, rgb(255, 102, 0));
+    border-radius: 5px;
+    color: rgb(255, 0, 0);
+    font-weight: 900px;
+}
+.fruit-information h3{
+    color: rgb(139, 95, 0);
+}
+.sapla{
+    width: 90%;
+    margin-bottom: 130px;
+    padding: 5%;
+}
+.sapla img{
+    border-radius: 80px;
+}
+.flower-information{
+    width: 50%;
+    text-align: left;
+    margin-top: 150px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.flower-information h1{
+    color: darkmagenta;
+}
+span{
+    color: chocolate;
+}
+.flower-information a{
+    text-decoration: none;
+    padding: 7px;
+    background-image: linear-gradient(rgb(14, 230, 14), yellow, rgb(255, 102, 0));
+    border-radius: 5px;
+    color: rgb(255, 0, 0);
+    font-weight: 900px;
+}
+.flower-information h3{
+    color: rgb(139, 95, 0);
+}
+.different{
+    display: flex;
+}
+.different .national{
+    width: 100%;
+    margin: 0 5% 150px 5%;
+    border-radius: 10px;
+    padding-left: 10px;
+    border-left: 10px solid rgb(218, 108, 89);
+    box-shadow: 10px 10px 40px;
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 8, 0),rgb(255, 166, 0));
+    border-image-slice: 1;
+}
+.different .nationall{
+    width: 100%;
+    margin: 0 5% 150px 5%;
+    border-radius: 10px;
+    padding-left: 10px;
+    border-left: 10px solid rgb(218, 108, 89);
+    box-shadow: 10px 10px 40px;
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(229, 255, 0),rgb(34, 73, 3));
+    border-image-slice: 1;
+}
+.different .nationally{
+    width: 100%;
+    margin: 0 5% 150px 5%;
+    border-radius: 10px;
+    padding-left: 10px;
+    border-left: 10px solid rgb(218, 108, 89);
+    box-shadow: 10px 10px 40px;
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(0, 255, 179),rgb(255, 0, 242));
+    border-image-slice: 1;
+}
+.dim{
+    color: violet;
+}
+.nationally h3, .nationall h3, .national h3{
+    border-bottom: 5px solid rgb(28, 13, 241);
+}
+footer{
+    text-align: center;
+}
